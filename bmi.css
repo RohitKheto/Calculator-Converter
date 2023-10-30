@@ -1,0 +1,121 @@
+body{
+    background-image: url("Article_Banner-1-24.jpg");
+    background-size: cover;
+}
+#all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:3rem;
+    margin-top: 2rem;
+}
+p{
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+}
+.left p{
+    margin: 1.5rem;
+}
+.left{
+    width:30%;
+    height: 20%;
+    padding:0rem 2rem;
+    padding-bottom: 1rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 15rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px rgb(87, 87, 87), 5px 5px 10px rgb(79, 79, 79);
+}
+.left h1{
+    text-align: center;
+    color: rgb(215, 3, 3);
+    margin-bottom: 0px;
+    margin-top: 1rem;
+}
+#img{
+    width: 90%;
+    border: 2px solid black;
+}
+#image{
+    background-image: url("meter.png");
+    background-size: cover;
+    width: 20rem;
+    height: 10rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+#hand{
+    position: absolute;
+    top: -10%;
+    left: -1.5%;
+    height: 20rem;
+    transform: rotate(270deg);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid black;
+    padding: 0rem 2rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: inset 2px 2px 5px rgb(87, 87, 87), 5px 5px 10px rgb(79, 79, 79);
+}
+.right h1{
+    margin: 0.5rem;
+    text-align: center;
+    color: rgb(0, 72, 253);
+}
+#wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.right div h1{
+    background-color: rgb(2, 184, 2);
+    color: white;
+    text-align: center;
+}
+.right label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+#age,#weight,#height{
+    width: 14vw;
+}
+.right div,input{
+    font-size: 1.2rem;
+}
+.right p{
+    text-align: center;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:0.3rem 1rem;
+    border-radius: 10px;
+    margin: 1.5rem;
+    margin-bottom: 0px;
+}
+button:first-child{
+    background-color: rgb(0, 164, 11);
+    color: white;
+    box-shadow: inset 5px 5px 6px rgb(0, 101, 13), 2px 3px 6px rgb(128, 128, 128);
+}
+button:first-child:active{
+    box-shadow: inset 5px 5px 10px rgb(0, 85, 6), inset -5px -5px rgb(0, 164, 11);
+}
+button:last-child{
+    background-color: rgb(255, 20, 20);
+    color: white;
+    box-shadow: inset 5px 5px 6px rgb(174, 0, 0), 2px 3px 6px rgb(128, 128, 128);
+}
+button:last-child:active{
+    box-shadow: inset 5px 5px 10px rgb(134, 1, 1), inset -5px -5px  rgb(255, 20, 20);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weight.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <div class="leftnav">
+            <img src="logo.png" >
+            <span>CalculateAllInOne</span>
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li><a href="index.html">Calculator</a></li>
+                <li><a href="bmi.html">BMI</a></li>
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="length.html">Length</a></li>
+                <li><a href="weight.html">Weight</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="all">
+        <h1>Weight Converter</h1>
+        <div class="gap">
+            <input type="number" placeholder="Enter weigth">
+            <select class="weight">
+                <option value="kilogram">Kilogram &nbsp;(kg)</option>
+                <option value="gram">Gram &nbsp;(g)</option>
+                <option value="milligram">Milligram &nbsp;(mg)</option>
+                <option value="microgram">Microgram &nbsp;(&micro;g)</option>
+                <option value="ton">Ton &nbsp;(t)</option>
+                <option value="quintal">Quintal &nbsp;(q)</option>
+                <option value="carat">Carat &nbsp;(ct)</option>
+                <option value="pound">Pound &nbsp;(lb)</option>
+                <option value="ounce">Ounce &nbsp;(oz)</option>
+                <option value="grain">Grain &nbsp;(gr)</option>
+                <option value="longton">Long ton &nbsp;(lt)</option>
+                <option value="shortton">Short ton &nbsp;(st)</option>
+                <option value="stone">Stone &nbsp;(st)</option>
+                <option value="dram">Dram &nbsp;(dr)</option>
+            </select>
+        </div>
+        <div class="gap">
+            <div id="result"></div>
+            <select class="weight" id="green">
+                <option value="kilogram">Kilogram &nbsp;(kg)</option>
+                <option value="gram">Gram &nbsp;(g)</option>
+                <option value="milligram">Milligram &nbsp;(mg)</option>
+                <option value="microgram">Microgram &nbsp;(&micro;g)</option>
+                <option value="ton">Ton &nbsp;(t)</option>
+                <option value="quintal">Quintal &nbsp;(q)</option>
+                <option value="carat">Carat &nbsp;(ct)</option>
+                <option value="pound">Pound &nbsp;(lb)</option>
+                <option value="ounce">Ounce &nbsp;(oz)</option>
+                <option value="grain">Grain &nbsp;(gr)</option>
+                <option value="longton">Long ton &nbsp;(lt)</option>
+                <option value="shortton">Short ton &nbsp;(st)</option>
+                <option value="stone">Stone &nbsp;(st)</option>
+                <option value="dram">Dram &nbsp;(dr)</option>
+            </select>
+        </div>
+        <button>Convert</button>
+    </div>
+    <script src="weight.js"></script>
+</body>
+</html>

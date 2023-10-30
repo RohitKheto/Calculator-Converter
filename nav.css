@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 247, 249);
+    margin: 0px;
+    padding:0.5rem 3rem;
+    justify-content: space-between;
+    box-shadow: 3px 3px 5px rgb(52, 52, 52);
+    background-image: url("https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b7e4d7973addf81ed1f4010_pattern.png");
+    background-repeat: repeat;
+    background-size: 300px;
+}
+.leftnav{
+    display: flex;
+    align-items: center;
+    color: rgb(0, 41, 106);
+    font-weight: 900;
+    gap: 1rem;
+    font-size: 2rem;
+    text-shadow: 5px 5px 15px rgb(0, 238, 255), -5px -5px 15px rgb(0, 238, 255);
+}
+.leftnav img{
+    height: 3rem;
+    width:4rem;
+}
+ul{
+    display: flex;
+    gap: 5rem;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color:rgb(0, 86, 171);
+}
+ul li a:hover{
+   color: rgb(0, 41, 106);
+   font-size: 1.7rem;
+   text-shadow: 3px 3px 10px rgb(0, 238, 255), -3px -3px 10px rgb(0, 238, 255);
+}

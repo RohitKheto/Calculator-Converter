@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temperature.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <div class="leftnav">
+            <img src="logo.png" >
+            <span>CalculateAllInOne</span>
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li><a href="index.html">Calculator</a></li>
+                <li><a href="bmi.html">BMI</a></li>
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="length.html">Length</a></li>
+                <li><a href="weight.html">Weight</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="all">
+        <h1>Temperature Converter</h1>
+        <div class="gap">
+            <input type="number" placeholder="Enter temperature">
+            <select class="temperature">
+                <option value="celsius">Celsius &nbsp;(&degC)</option>
+                <option value="farenheit">Farenheit &nbsp;(&degF)</option>
+                <option value="reaumur">Reaumur &nbsp;(&degRe)</option>
+                <option value="rankine">Rankine &nbsp;(&degR)</option>
+                <option value="kelvin">Kelvin &nbsp;(K)</option>
+            </select>
+        </div>
+        <div class="gap">
+            <div id="result"></div>
+            <select class="temperature">
+                <option value="celsius">Celsius &nbsp;(&degC)</option>
+                <option value="farenheit">Farenheit &nbsp;(&degF)</option>
+                <option value="reaumur">Reaumur &nbsp;(&degRe)</option>
+                <option value="rankine">Rankine &nbsp;(&degR)</option>
+                <option value="kelvin">Kelvin &nbsp;(K)</option>
+            </select>
+        </div>
+        <button>Convert</button>
+    </div>
+    <script src="temperature.js"></script>
+</body>
+</html>

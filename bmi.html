@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <div class="leftnav">
+            <img src="logo.png" >
+            <span>CalculateAllInOne</span>
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li><a href="index.html">Calculator</a></li>
+                <li><a href="bmi.html">BMI</a></li>
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="length.html">Length</a></li>
+                <li><a href="weight.html">Weight</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="all">
+        <div class="left">
+            <h1>BMI table</h1>
+            <p>This is the World Health Organization's (WHO) recommended body weight based on BMI values for adults. It
+                is used for both men and women.</p>
+            <img id="img" src="table.png">
+        </div>
+        <div class="right">
+            <h1>BMI Calculator</h1>
+            <div>
+                <label for="age">Age :</label>
+                <input type="number" id="age" min="1">
+            </div>
+            <div>
+                <label for="gender">Gender :</label>
+                <input type="radio" name="Gender" checked><span>Male</span>
+                <input type="radio" name="Gender"><span>Female</span>
+                <input type="radio" name="Gender"><span>Others</span>
+            </div>
+            <div>
+                <label for="height">Height :</label>
+                <input type="number" id="height" min="1">
+                <span> cm</span>
+            </div>
+            <div>
+                <label for="weight">Weight :</label>
+                <input type="number" id="weight" min="1">
+                <span> kg</span>
+            </div>
+            <div>
+                <button onclick="calculate()">Calculate</button>
+                <button>Clear</button>
+            </div>
+            <div>
+                <h1>Result</h1>
+                <p id="result">BMI = 0 kg/m&#178</p>
+                <div id="image">
+                    <img id="hand" src="secondHand.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+
+</html>
