@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <div class="leftnav">
+            <img src="logo.png" >
+            <span>CalculateAllInOne</span>
+        </div>
+        <div class="rightnav">
+            <ul>
+                <li><a href="index.html">Calculator</a></li>
+                <li><a href="bmi.html">BMI</a></li>
+                <li><a href="temperature.html">Temperature</a></li>
+                <li><a href="length.html">Length</a></li>
+                <li><a href="weight.html">Weight</a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="calculator">
+        <div id="screen"></div>
+        <button class="btn" onclick="backspace()">Backspace</button>
+        <button class="btn" onclick="addnumber('*')">*</button>
+        <button class="btn" onclick="addnumber('/')">/</button>
+        <button class="btn" onclick="addnumber(9)">9</button>
+        <button class="btn" onclick="addnumber(8)">8</button>
+        <button class="btn" onclick="addnumber(7)">7</button>
+        <button class="btn" onclick="addnumber('%')">%</button>
+        <button class="btn" onclick="addnumber(6)">6</button>
+        <button class="btn" onclick="addnumber(5)">5</button>
+        <button class="btn" onclick="addnumber(4)">4</button>
+        <button class="btn" onclick="addnumber('-')">-</button>
+        <button class="btn" onclick="addnumber(3)">3</button>
+        <button class="btn" onclick="addnumber(2)">2</button>
+        <button class="btn" onclick="addnumber(1)">1</button>
+        <button class="btn" onclick="addnumber('+')">+</button>
+        <button class="btn" onclick="addnumber(0)">0</button>
+        <button class="btn" onclick="addnumber(0)">00</button>
+        <button class="btn" onclick="addnumber('.')">.</button>
+        <button class="btn" onclick="addopen()">(</button>
+        <button class="btn" onclick="addclose()">)</button>
+        <button class="btn" onclick="allclear()">AC</button>
+        <button class="btn" onclick="answer()">=</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
